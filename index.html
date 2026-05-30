@@ -3,30 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enterprise Futuristic Portfolio | Premium Edition</title>
-    <!-- Fonts & Icons -->
+    <title>ANAS EL JATTARII | Futuristic Portfolio</title>
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <!-- Custom Animated Glowing Cursor Elements -->
-    <div class="custom-cursor"></div>
-    <div class="custom-cursor-dot"></div>
+    <!-- Background Stars & Glows -->
+    <div class="bg-glow blue-glow"></div>
+    <div class="bg-glow purple-glow"></div>
+    <div class="space-grid"></div>
 
-    <!-- Decorative Cinematic Background Grid & Lights -->
-    <div class="cyber-grid"></div>
-    <div class="bg-glow glow-1"></div>
-    <div class="bg-glow glow-2"></div>
-    <div class="bg-glow glow-3"></div>
-
-    <!-- Sticky Ultra-Glass Navbar -->
+    <!-- Header / Navbar -->
     <header class="navbar">
         <div class="nav-container">
-            <a href="#home" class="logo">NEXT.GEN<span>_</span></a>
+            <a href="#" class="logo">Anas<span>.dev</span></a>
             <nav class="nav-menu">
                 <a href="#home" class="nav-link active">Home</a>
                 <a href="#about" class="nav-link">About</a>
@@ -36,107 +33,108 @@
                 <a href="#contact" class="nav-link">Contact</a>
             </nav>
             <div class="nav-actions">
-                <button class="terminal-trigger" aria-label="Open Core Terminal">
-                    <i class="fas fa-terminal"></i>
-                </button>
-                <button class="mobile-toggle" aria-label="Toggle Navigation Menu">
-                    <i class="fas fa-bars"></i>
-                </button>
+                <button class="theme-toggle"><i class="fas fa-moon"></i></button>
+                <button class="mobile-toggle"><i class="fas fa-bars"></i></button>
             </div>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section id="home" class="hero-section section-padding">
-        <div class="container hero-container">
+    <section id="home" class="hero-section">
+        <div class="container hero-grid">
             <div class="hero-content">
-                <div class="hero-badge"><i class="fas fa-shield-halved"></i> v2.0 Enterprise Security Core Active</div>
-                <h3 class="hero-greeting">SYSTEM.INITIALIZE // Hi, I'm</h3>
-                <h1 class="hero-name">Your Name</h1>
-                <h2 class="hero-subtitle">Specialized in <span class="typing-text"></span></h2>
-                <p class="hero-desc">
-                    Architecting next-generation cyber environments and high-performance automated infrastructures. Focused on absolute structural precision and immersive interactive user interfaces.
+                <div class="greeting-badge">👋 Welcome to my universe</div>
+                <h1 class="hero-title">Hi, I'm <br><span class="gradient-text">Anas El Jattarii</span></h1>
+                <h2 class="hero-subtitle">I build <span class="typing-text"></span></h2>
+                <p class="hero-description">
+                    A passionate developer focused on building advanced Python automations, secure Linux infrastructures, intelligent AI solutions, and premium web interfaces.
                 </p>
                 <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary magnet-target">Initialize Portfolio</a>
-                    <a href="#contact" class="btn btn-secondary magnet-target">Secure Connection</a>
+                    <a href="#projects" class="btn btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-secondary">Let's Talk</a>
                 </div>
                 <div class="hero-socials">
-                    <a href="https://github.com" target="_blank" class="social-icon magnet-target"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com" target="_blank" class="social-icon magnet-target"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://twitter.com" target="_blank" class="social-icon magnet-target"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/eljattarii" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://instagram.com/eljattarii" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:your@email.com" class="social-icon"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
             
-            <div class="hero-image-wrapper tilt-target">
-                <div class="radial-glow"></div>
-                <div class="circular-ring"></div>
-                <div class="circular-ring-outer"></div>
-                <div class="particles-container" id="particles"></div>
-                <div class="portrait-container">
-                    <!-- Advanced Cybernetic SVG Profile Representation -->
-                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="portrait-placeholder">
+            <div class="hero-image-container">
+                <div class="avatar-glow-ring"></div>
+                <div class="avatar-wrapper">
+                    <!-- Placeholder graphic or SVG matching the profile look if actual image isn't hardcoded -->
+                    <svg viewBox="0 0 100 100" class="fallback-avatar">
                         <defs>
-                            <linearGradient id="cyber-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-                                <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.3" />
-                                <stop offset="50%" style="stop-color:#6c63ff;stop-opacity:0.1" />
-                                <stop offset="100%" style="stop-color:#000;stop-opacity:0.8" />
+                            <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#00d4ff" />
+                                <stop offset="100%" stop-color="#6c63ff" />
                             </linearGradient>
                         </defs>
-                        <circle cx="100" cy="100" r="92" fill="url(#cyber-grad)" stroke="#00d4ff" stroke-width="1" stroke-dasharray="8 4"/>
-                        <path d="M60,140 C60,110 80,95 100,95 C120,95 140,110 140,140 Z M100,85 A20,20 0 1,0 100,45 A20,20 0 1,0 100,85 Z" fill="#00d4ff" opacity="0.8"/>
-                        <line x1="20" y1="100" x2="180" y2="100" stroke="rgba(0, 212, 255, 0.2)" stroke-width="1"/>
-                        <line x1="100" y1="20" x2="100" y2="180" stroke="rgba(0, 212, 255, 0.2)" stroke-width="1"/>
+                        <circle cx="50" cy="45" r="25" fill="url(#avatarGrad)" opacity="0.8"/>
+                        <path d="M20,90 C20,70 35,65 50,65 C65,65 80,70 80,90" fill="url(#avatarGrad)"/>
                     </svg>
                 </div>
-                <div class="floating-card metric-card">
-                    <i class="fas fa-bolt"></i>
-                    <div>
-                        <span class="block-label">CORE.SPEED</span>
-                        <span class="block-value">99.2 FPS</span>
-                    </div>
+                <!-- Floating Glass Cards -->
+                <div class="floating-card card-1">
+                    <i class="fab fa-linux text-blue"></i>
+                    <span>Linux Expert</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fab fa-python text-purple"></i>
+                    <span>Python Dev</span>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about-section section-padding scroll-reveal">
+    <section id="about" class="about-section section-padding">
         <div class="container">
-            <h2 class="section-title" data-text="ABOUT SYSTEM">ABOUT SYSTEM</h2>
-            <div class="about-container">
-                <div class="about-illustration tilt-target">
-                    <!-- Advanced Code Console Mockup -->
-                    <div class="console-box">
-                        <div class="console-header">
-                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
-                            <span class="console-title">root@nextgen:~# terminal-stats</span>
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">The mind behind the terminal</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-visual">
+                    <div class="mock-terminal">
+                        <div class="terminal-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="terminal-title">anas@cyber-shell:~</span>
                         </div>
-                        <div class="console-body">
-                            <p class="c-line"><span class="c-keyword">import</span> systems_engineer</p>
-                            <p class="c-line"><span class="c-keyword">const</span> bio = <span class="c-string">"Linux & Automation Enthusiast"</span>;</p>
-                            <p class="c-line"><span class="c-comment">// Analyzing operational metrics...</span></p>
-                            <p class="c-line"><span class="c-ident">OS:</span> Linux Mint / Arch Architectures</p>
-                            <p class="c-line"><span class="c-ident">Focus:</span> Task Automation & Advanced GUIs</p>
-                            <p class="c-line"><span class="c-ident">Security:</span> Ethical Hacker Path (White Hat)</p>
-                            <p class="c-line success"><span class="c-cursor-blink">&gt;</span> SYSTEM DIAGNOSTIC: PERFECT</p>
+                        <div class="terminal-body">
+                            <p><span class="t-purple">anas@linuxmint</span>:<span class="t-blue">~</span>$ cat mission.txt</p>
+                            <p class="t-gray">"To master open-source environments, automate complex workflows with Python, and develop elegant client-side solutions that combine clean aesthetics with extreme efficiency."</p>
+                            <p><span class="t-purple">anas@linuxmint</span>:<span class="t-blue">~</span>$ neofetch</p>
+                            <p><span class="t-blue">OS</span>: Linux Mint / Arch Linux</p>
+                            <p><span class="t-blue">Focus</span>: Systems engineering, AI integration, GUI development</p>
+                            <p><span class="t-blue">Status</span>: Constantly learning, iterating, and breaking code</p>
                         </div>
                     </div>
                 </div>
-                <div class="about-content">
-                    <p class="about-text">
-                        A dedicated developer and tech architect specializing in custom Linux automation ecosystems, application development, and interactive front-end layouts. Obsessed with high-performance metrics, clean systems engineering, and micro-animations that respond intuitively to user interaction.
+                <div class="about-info">
+                    <h3>Engineering High-Performance Solutions</h3>
+                    <p>
+                        Based in Morocco, I focus on the intersection of system architecture, terminal automation, and modern full-stack engineering. I enjoy building applications like hardware control layers, cross-platform wrappers, and smart interactive dashboards.
                     </p>
-                    <div class="about-stats">
-                        <div class="stat-card tilt-target">
-                            <div class="stat-icon"><i class="fas fa-terminal"></i></div>
-                            <h3 class="stat-number">3+ Years</h3>
-                            <p class="stat-label">System Architecture</p>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <i class="fas fa-code-branch stat-icon"></i>
+                            <div class="stat-val">15+</div>
+                            <div class="stat-lbl">Projects Done</div>
                         </div>
-                        <div class="stat-card tilt-target">
-                            <div class="stat-icon"><i class="fas fa-cubes"></i></div>
-                            <h3 class="stat-number">30+</h3>
-                            <p class="stat-label">Deployments Active</p>
+                        <div class="stat-card">
+                            <i class="fab fa-linux stat-icon"></i>
+                            <div class="stat-val">100%</div>
+                            <div class="stat-lbl">Open Source</div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-fire stat-icon"></i>
+                            <div class="stat-val">365+</div>
+                            <div class="stat-lbl">Streak Days</div>
                         </div>
                     </div>
                 </div>
@@ -145,139 +143,126 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="skills-section section-padding scroll-reveal">
+    <section id="skills" class="skills-section section-padding">
         <div class="container">
-            <h2 class="section-title" data-text="CORE CAPABILITIES">CORE CAPABILITIES</h2>
+            <div class="section-header">
+                <h2 class="section-title">Skills & Tech Stack</h2>
+                <p class="section-subtitle">The tools and languages I use to bring ideas to reality</p>
+            </div>
             <div class="skills-grid">
                 <!-- Skill 1 -->
-                <div class="skill-card tilt-target">
-                    <div class="skill-header">
-                        <div class="skill-icon"><i class="fab fa-python"></i></div>
-                        <h4 class="skill-name">Python Automation / PyQt6</h4>
-                    </div>
+                <div class="skill-card">
+                    <div class="skill-icon-wrap"><i class="fab fa-python"></i></div>
+                    <h3>Python</h3>
                     <div class="progress-container">
-                        <div class="progress-bar" data-progress="92%"></div>
+                        <div class="progress-bar" style="width: 90%"></div>
                     </div>
-                    <span class="skill-percentage">92%</span>
+                    <span class="percentage">90%</span>
                 </div>
                 <!-- Skill 2 -->
-                <div class="skill-card tilt-target">
-                    <div class="skill-header">
-                        <div class="skill-icon"><i class="fab fa-linux"></i></div>
-                        <h4 class="skill-name">Linux Systems & Bash</h4>
-                    </div>
+                <div class="skill-card">
+                    <div class="skill-icon-wrap"><i class="fab fa-linux"></i></div>
+                    <h3>Linux & Bash</h3>
                     <div class="progress-container">
-                        <div class="progress-bar" data-progress="95%"></div>
+                        <div class="progress-bar" style="width: 95%"></div>
                     </div>
-                    <span class="skill-percentage">95%</span>
+                    <span class="percentage">95%</span>
                 </div>
                 <!-- Skill 3 -->
-                <div class="skill-card tilt-target">
-                    <div class="skill-header">
-                        <div class="skill-icon"><i class="fab fa-js-square"></i></div>
-                        <h4 class="skill-name">JavaScript / React</h4>
-                    </div>
+                <div class="skill-card">
+                    <div class="skill-icon-wrap"><i class="fab fa-js"></i></div>
+                    <h3>JavaScript / React</h3>
                     <div class="progress-container">
-                        <div class="progress-bar" data-progress="88%"></div>
+                        <div class="progress-bar" style="width: 80%"></div>
                     </div>
-                    <span class="skill-percentage">88%</span>
+                    <span class="percentage">80%</span>
                 </div>
                 <!-- Skill 4 -->
-                <div class="skill-card tilt-target">
-                    <div class="skill-header">
-                        <div class="skill-icon"><i class="fas fa-layer-group"></i></div>
-                        <h4 class="skill-name">Full-Stack Integration</h4>
-                    </div>
+                <div class="skill-card">
+                    <div class="skill-icon-wrap"><i class="fab fa-html5"></i></div>
+                    <h3>HTML5 & CSS3</h3>
                     <div class="progress-container">
-                        <div class="progress-bar" data-progress="85%"></div>
+                        <div class="progress-bar" style="width: 85%"></div>
                     </div>
-                    <span class="skill-percentage">85%</span>
+                    <span class="percentage">85%</span>
+                </div>
+                <!-- Skill 5 -->
+                <div class="skill-card">
+                    <div class="skill-icon-wrap"><i class="fab fa-docker"></i></div>
+                    <h3>Docker</h3>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 75%"></div>
+                    </div>
+                    <span class="percentage">75%</span>
+                </div>
+                <!-- Skill 6 -->
+                <div class="skill-card">
+                    <div class="skill-icon-wrap"><i class="fab fa-git-alt"></i></div>
+                    <h3>Git & Version Control</h3>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                    <span class="percentage">90%</span>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects-section section-padding scroll-reveal">
+    <section id="projects" class="projects-section section-padding">
         <div class="container">
-            <h2 class="section-title" data-text="PROJECT ARCHIVES">PROJECT ARCHIVES</h2>
-            
-            <!-- Dynamic Filters -->
-            <div class="filter-wrapper">
-                <button class="filter-btn active" data-filter="all">ALL_SYSTEMS</button>
-                <button class="filter-btn" data-filter="automation">AUTOMATION</button>
-                <button class="filter-btn" data-filter="gui">GUI_APPS</button>
-                <button class="filter-btn" data-filter="web">WEB_CORE</button>
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Explore my latest cyber creations and open-source applications</p>
             </div>
-
             <div class="projects-grid">
                 <!-- Project 1 -->
-                <div class="project-card tilt-target" data-category="gui">
-                    <div class="project-img-wrapper">
-                        <div class="cyber-overlay"></div>
-                        <svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg" class="project-svg-placeholder">
-                            <rect width="100%" height="100%" fill="#0a0f1f"/>
-                            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#00d4ff" font-family="'Orbitron', sans-serif" font-size="14">SCRCPY_GUI_WRAPPER</text>
-                        </svg>
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="project-overlay">
+                            <a href="https://github.com/eljattarii/NexusView" target="_blank" class="proj-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
                     </div>
                     <div class="project-info">
-                        <h3 class="project-card-title">Scrcpy PyQt6 Controller</h3>
-                        <p class="project-desc">A premium desktop GUI wrapper built with Python and PyQt6 to control Android devices mirroring metrics, bitrates, and active adb toggles seamlessly.</p>
-                        <div class="project-tags">
-                            <span>Python</span>
-                            <span>PyQt6</span>
-                            <span>ADB</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="magnet-target"><i class="fab fa-github"></i></a>
-                            <a href="#" class="magnet-target"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
+                        <span class="project-tag">Python / PyQt6</span>
+                        <h3>NexusView</h3>
+                        <p>A high-performance premium GUI wrapper application designed to control, manage, and mirror Android devices using scrcpy and adb seamlessly.</p>
                     </div>
                 </div>
                 <!-- Project 2 -->
-                <div class="project-card tilt-target" data-category="automation">
-                    <div class="project-img-wrapper">
-                        <div class="cyber-overlay"></div>
-                        <svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg" class="project-svg-placeholder">
-                            <rect width="100%" height="100%" fill="#0a0f1f"/>
-                            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#6c63ff" font-family="'Orbitron', sans-serif" font-size="14">SMART_FILE_ORGANIZER</text>
-                        </svg>
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="project-overlay">
+                            <a href="#" class="proj-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-terminal"></i>
+                        </div>
                     </div>
                     <div class="project-info">
-                        <h3 class="project-card-title">Automated File System Manager</h3>
-                        <p class="project-desc">High-performance custom background automation suite sorting directories, processing file metadata, and organizing assets seamlessly.</p>
-                        <div class="project-tags">
-                            <span>Python</span>
-                            <span>Automation</span>
-                            <span>Linux</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="magnet-target"><i class="fab fa-github"></i></a>
-                            <a href="#" class="magnet-target"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
+                        <span class="project-tag">Bash / Linux</span>
+                        <h3>Dotfiles Automator</h3>
+                        <p>Advanced modular scripts to deploy customizable desktop environments across Linux Mint and clean Arch Linux installations automatically.</p>
                     </div>
                 </div>
                 <!-- Project 3 -->
-                <div class="project-card tilt-target" data-category="web">
-                    <div class="project-img-wrapper">
-                        <div class="cyber-overlay"></div>
-                        <svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg" class="project-svg-placeholder">
-                            <rect width="100%" height="100%" fill="#0a0f1f"/>
-                            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#00d4ff" font-family="'Orbitron', sans-serif" font-size="14">NEBULA_DECENTRALIZED_UI</text>
-                        </svg>
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="project-overlay">
+                            <a href="#" class="proj-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-brain"></i>
+                        </div>
                     </div>
                     <div class="project-info">
-                        <h3 class="project-card-title">Nebula React Core Dashboard</h3>
-                        <p class="project-desc">Ultra high-end decentralized server dashboard running absolute telemetry visualization charts, built with pure Tailwind and React architecture.</p>
-                        <div class="project-tags">
-                            <span>React</span>
-                            <span>Tailwind</span>
-                            <span>WebSockets</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="magnet-target"><i class="fab fa-github"></i></a>
-                            <a href="#" class="magnet-target"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
+                        <span class="project-tag">Python / OpenAI</span>
+                        <h3>AI Assistant Core</h3>
+                        <p>A secure background agent script utilizing local or remote LLM execution layers to run terminal processes based on speech instructions.</p>
                     </div>
                 </div>
             </div>
@@ -285,26 +270,29 @@
     </section>
 
     <!-- Experience Section -->
-    <section id="experience" class="experience-section section-padding scroll-reveal">
+    <section id="experience" class="experience-section section-padding">
         <div class="container">
-            <h2 class="section-title" data-text="TIMELINE METRICS">TIMELINE METRICS</h2>
+            <div class="section-header">
+                <h2 class="section-title">Experience & Journey</h2>
+                <p class="section-subtitle">How I built my technical foundation over time</p>
+            </div>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-content tilt-target">
-                        <span class="timeline-date">2025 - PRESENT</span>
-                        <h3 class="timeline-role">Systems & Software Architect</h3>
-                        <h4 class="timeline-company">NextGen Tech Solutions</h4>
-                        <p class="timeline-desc">Architecting robust task automations via custom background frameworks. Standardizing cross-platform deployment modules and building sleek graphical interfaces for devices.</p>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025 - Present</span>
+                        <h3>Independent Open-Source Developer</h3>
+                        <h4 class="text-blue">GitHub Community</h4>
+                        <p>Building system utilities, participating in community discussions, managing custom repositories, and automating routine OS tasks using robust scripting languages.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-content tilt-target">
-                        <span class="timeline-date">2023 - 2025</span>
-                        <h3 class="timeline-role">Frontend Interface Designer</h3>
-                        <h4 class="timeline-company">Cyber Security Lab Infinitum</h4>
-                        <p class="timeline-desc">Designed zero-latency interactive operational web portals with complex visual filters, responsive grid charts, and secure data stream nodes.</p>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - 2025</span>
+                        <h3>Hardware Repair & Software Modding</h3>
+                        <h4 class="text-purple">Freelance Terminal</h4>
+                        <p>Diagnosing micro-electronics issues, upgrading system firmware, building specialized hardware setups, and configuring native Unix platforms on older computer hardware frameworks.</p>
                     </div>
                 </div>
             </div>
@@ -312,24 +300,32 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact-section section-padding scroll-reveal">
+    <section id="contact" class="contact-section section-padding">
         <div class="container">
-            <h2 class="section-title" data-text="ESTABLISH SECURE LINK">ESTABLISH SECURE LINK</h2>
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's collaborate on your next futuristic vision</p>
+            </div>
             <div class="contact-grid">
-                <div class="contact-card tilt-target">
-                    <div class="contact-icon"><i class="fas fa-envelope-open-text"></i></div>
-                    <h3>COM.EMAIL</h3>
-                    <p>your.email@example.com</p>
+                <div class="contact-card">
+                    <i class="fas fa-envelope contact-icon"></i>
+                    <h3>Email</h3>
+                    <p>anas@example.com</p>
                 </div>
-                <div class="contact-card tilt-target">
-                    <div class="contact-icon"><i class="fab fa-github-alt"></i></div>
-                    <h3>GIT.PROFILE</h3>
-                    <p>github.com/eljattarii</p>
-                </div>
-                <div class="contact-card tilt-target">
-                    <div class="contact-icon"><i class="fas fa-satellite-dish"></i></div>
-                    <h3>LOC.NODE</h3>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt contact-icon"></i>
+                    <h3>Location</h3>
                     <p>Al Hoceima, Morocco</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fab fa-github contact-icon"></i>
+                    <h3>GitHub Profile</h3>
+                    <p>@eljattarii</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-paper-plane contact-icon"></i>
+                    <h3>Let's Talk</h3>
+                    <p>DM via Socials</p>
                 </div>
             </div>
         </div>
@@ -337,13 +333,13 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container footer-container">
-            <p class="copyright">// CODENAME: ELJATTARII. ALL METRICS ACTIVE &copy; 2026.</p>
-            <a href="#home" class="back-to-top magnet-target">ASCEND_TO_TOP <i class="fas fa-angle-double-up"></i></a>
+        <div class="container footer-content">
+            <p>&copy; 2026 Anas El Jattarii. All rights secured under open source licenses.</p>
+            <a href="#" class="back-to-top">Back to top <i class="fas fa-chevron-up"></i></a>
         </div>
     </footer>
 
-    <!-- Scripts -->
-    <script src="main.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
 </body>
 </html>
