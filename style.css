@@ -30,6 +30,7 @@ body {
     color: var(--text-primary);
     font-family: var(--font-main);
     overflow-x: hidden;
+    width:100vw;
     position: relative;
     line-height: 1.6;
 }
